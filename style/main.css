@@ -1,0 +1,84 @@
+/* DEVELOPER: Ashlee Borges, IS117-002, Spring 2026 */
+
+body {
+    font-family: Georgia, serif;
+    font-size: 1.1em;
+    background-color: #fdfafd; /* lavender color */
+    color: #2e004f; /* dark purple text color */
+    line-height: 1.6;
+}
+
+.navbar-brand, h1, h2, .display-3 {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header, .bg-primary { /*used gemini to figure out how to get rid of the blue*/
+    background-color: #6a0dad !important; /* brighter purple */
+    color: #e0ffcd !important; /* light green text color */
+}
+
+header h1, .jumbotron h1 {
+    font-size: 5rem !important;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.btn-primary, .btn-outline-primary {
+    background-color: #2e8b57 !important; /*sea green*/
+    border-color: #2e8b57 !important; /*same sea green*/
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: #4b0082 !important; /*dark purple*/
+}
+
+.navbar{
+    background-color: #4b0082 !important;
+}
+
+article {
+    border-top: 10px solid #6a0dad;
+    color: #2e004f;
+}
+
+article a.text-success {
+    color: #2e8b57 !important;
+    text-decoration: underline;
+}
+
+article p {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: "Courier New", Courier, monospace !important;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #2e004f !important;
+    color: #e0ffcd !important;
+}
+
+footer a {
+    color: #98fb98 !important; /*lighter green*/
+}
+
+.float-img {
+    float: left;
+    margin: 10px 20px 10px 0;
+    border: 3px solid #2e8b57; /* green border */
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+@media (max-width: 768px) {
+    .float-img {
+        float: none;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+}
